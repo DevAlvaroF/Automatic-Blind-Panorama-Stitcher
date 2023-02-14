@@ -1,5 +1,6 @@
 # Automatic-Blind-Panorama-Stitcher
 Blind panorama stitcher based on the paper "Automatic Panorama Image Stitching using Invariant Features" by Brown and Lowe
+Identifies different panoramas in the same folder, aligns, optimizes for errors and does gain compensation.
 
 ## Highlights
 1. Blind stitching. Separates panoramas that do not belong to each other (based on overlapping points transformed to destination place)
@@ -11,7 +12,7 @@ Blind panorama stitcher based on the paper "Automatic Panorama Image Stitching u
 - Network theory slows the process considerable when more images from different panoramas are added
 
 ## Potential Improvements
-- Derivation of Camera Jacobian Matrix 
+- Derivation of Camera Jacobian Matrix for Bundle Adjustment
 - Finding the Image in the center that is visually symmetric to the user
 - Save images to .png files
 

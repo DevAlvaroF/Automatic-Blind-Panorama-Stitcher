@@ -1,4 +1,4 @@
-# Automatic-Blind-Panorama-Stitcher
+# Automatic Blind Panorama Stitcher
 Blind panorama stitcher based on the paper "Automatic Panorama Image Stitching using Invariant Features" by Brown and Lowe
 Identifies different panoramas in the same folder, aligns, optimizes for errors and does gain compensation.
 
